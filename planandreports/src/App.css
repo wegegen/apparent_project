@@ -35,7 +35,7 @@
 }
 
 .writing-page {
-  width: 800px; /* Adjust the width as needed */
+  width: 1600px; /* Adjust the width as needed */
   height: 1200px; /* Adjust the height as needed */
   margin: 50px; /* Adjust the margin as needed */
   padding: 20px; /* Adjust the padding as needed */
@@ -45,10 +45,19 @@
 }
 
 textarea {
-  width: 1600px; /* Adjust the width as needed */
-  height: 200px; /* Adjust the height as needed */
+  width: 90%; /* Adjust the width as needed */
+  height: 1000px; /* Adjust the height as needed */
   resize: none;
   border: 1px solid #ccc;
   padding: 10px;
-  margin-bottom: 20px;
+  margin: 0px 10px 20px 100px;
 }
+.planning-header{
+  text-align: center;
+  text-shadow: #249578;
+  text-transform: capitalize;
+background: navajowhite;
+padding: 10px;
+}
+
+  

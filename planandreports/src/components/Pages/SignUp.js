@@ -19,6 +19,7 @@ const SignUp = () => {
   const PAGE_HEIGHT = 1200; // Adjust the height as needed
   const PAGE_MARGIN = 50; // Adjust the margin as needed
   const PAGE_PADDING = 20; // Adjust the padding as needed
+   
 
   const [content, setContent] = useState('');
 
@@ -73,10 +74,16 @@ const SignUp = () => {
 
   return (
     <div>
-      <textarea
+    <h1 className='planning-header'>planning here</h1>
+      <textarea className='my-text-area'
         value={content}
         onChange={handleInputChange}
-        style={{ width: '${PAGE_WIDTH}px' }}
+     style={{
+    width: `${PAGE_WIDTH}px`,
+    fontSize: '25px', // Adjust the font size as needed
+    lineHeight: '1.5', // Adjust the line spacing as needed
+    width:'2200px',
+  }}
       />
 
       <div className="pages-container">{renderPages()}</div>
